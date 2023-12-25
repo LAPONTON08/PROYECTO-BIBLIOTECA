@@ -1,0 +1,130 @@
+@charset "utf-8";
+
+@font-face("webfonts/MYRIADPRO_REGULAR/stylesheet.css");
+.boton{
+background: rgb(142,193,16); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(142,193,16,1) 15%, rgba(151,186,65,1) 78%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(15%,rgba(142,193,16,1)), color-stop(78%,rgba(151,186,65,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(142,193,16,1) 15%,rgba(151,186,65,1) 78%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(142,193,16,1) 15%,rgba(151,186,65,1) 78%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(142,193,16,1) 15%,rgba(151,186,65,1) 78%); /* IE10+ */
+background: linear-gradient(to bottom,  rgba(142,193,16,1) 15%,rgba(151,186,65,1) 78%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8ec110', endColorstr='#97ba41',GradientType=0 ); /* IE6-9 */
+
+
+
+
+display:inline-block; /* Permite que el ancho del div se reduzca al ancho de texto */
+padding:5px 15px;
+border:1px solid #8ec110;
+border-top:#009900; /* Este borde solo va a afectar la linea de arriba del div o boton */
+color:#ffffff; /* Afecta color de fuente*/
+text-shadow:1px 1px 0px rgba(150, 150, 150, 1); /* Le da al texto una sombra*/
+text-transform:upperlower; /* Permite que el texto este en mayúscula*/
+font-family: "myriad Pro";
+-webkit-border-radius:5px;
+-moz-border-radius:5px;
+border-radius:5px;
+box-shadow:inset 0 2px 0 0 #999999;
+
+}
+.form{
+-webkit-border-radius:7px;
+-moz-border-radius:7px;
+border-radius:7px;
+border: solid;
+border-color:#C9C9C9;
+cursor:default;
+
+}
+
+.login{
+-webkit-border-radius:7px;
+-moz-border-radius:7px;
+border-radius:7px;
+border-top:10px solid #8EC110 ;
+border-bottom:20px solid  #999999;
+cursor: default;
+
+}
+
+input{
+margin-bottom:5px;
+padding:6px; /* Se ancha la caja de texto*/
+-webkit-border-radius:5px;
+-moz-border-radius:5px;
+border-radius:5px;
+border:solid 1px;
+border-color:#333333;
+
+
+}
+input:focus,textarea:focus{
+background-color: #F2F2F2; /*Da color a la caja de texto al presinar el mouse sobre el
+/*border-top:2px solid  #666666;
+border-left:1px solid #666666;
+border-right:1px solid #666666;
+border-bottom:1px solid #666666; /*crea un estilo de sombra*/
+
+}
+select,textarea{
+padding:5px;
+-webkit-border-radius:5px;
+-moz-border-radius:5px;
+border-radius:5px;
+max-width:225px;
+}
+
+.boton:hover{
+/*background: #666666 ;  Color al pasicionarse el cursor*/
+/*opacity:.60;*/
+}
+.boton:active{ /* Color al dar clic al boton*/
+background: #666666; 
+margin-left:3px; /* Hace un movimiento lateral */
+
+}
+body {
+	font-family:"myriad pro";
+	color: #333;
+	text-align: left;
+}
+.titulos {
+	font-family: "myriad Pro";
+	color: #BFD730;
+	text-align: center;
+}
+
+
+	
+.texto_tabla {
+	font-size: 14px;
+	text-align: left;
+}
+.codigo {
+	text-align: center;
+}
+.fondocodigo{
+background:#0080FF;
+}
+.Nuevo_registro {
+	text-align: center;
+	font-weight: bold;
+}
+.TH {
+	font-family: "MYRIADPRO REGULAR";
+	text-align: center;
+}
+
+TH {
+	background-color: #BFD730;
+	text-align: center;
+	}
+	
+.color-textotabla {
+	color: #FFF;
+	font-weight: bold;
+	text-align: center;
+}
+
+

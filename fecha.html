@@ -1,0 +1,34 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<script src="../../JSCal2-1.9/src/js/jscal2.js"></script>
+<script src="../../JSCal2-1.9/src/js/lang/es.js"></script>
+	<link rel="stylesheet" type="text/css" href="../../JSCal2-1.9/src/css/jscal2.css">
+	<link rel="stylesheet" type="text/css" href="../../JSCal2-1.9/src/css/border-radius.css">
+	<link rel="stylesheet" type="text/css" href="../../JSCal2-1.9/src/css/steel/steel.css">
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Untitled Document</title>
+</head>
+
+<body>
+<table width="100%" border="1" align="center" bordercolor="#9FBE19" style="border-collapse:collapse; color:#00798A; font-family:Verdana; font-size:10px">
+  <form action="<?php echo $editFormAction; ?>" method="post" name="asistencia" id="asistencia">
+    <tr>
+      <td colspan="3" bgcolor="#FFFFFF"><input name="fecha" id="f_date1" size="20" />
+          <button id="f_btn1">...</button>
+        <script type="text/javascript">//<![CDATA[
+      Calendar.setup({
+        inputField : "f_date1",
+        trigger    : "f_btn1",
+        onSelect   : function() { this.hide() },
+        showTime   : 12,
+        dateFormat : "%Y-%m-%d"
+      });
+    //]]></script></td>
+    </tr>
+    <input type="hidden" name="MM_insert" value="asistencia" />
+  </form>
+</table>
+</body>
+
+</html>
